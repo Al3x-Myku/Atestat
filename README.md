@@ -34,37 +34,37 @@ Pentru balansarea cererilor catre aplicatie folosim RabbitMQ ca message broker s
 Proiectul se folosete de Flask pentru a creea un server web pentru a comunica prin JSON intre aplicatie si workeri RabbitMQ.
 Aplicatia ruleaza pe desktop folosinduse de frameworkurile: Vue.js, tauri si de Node.js. Folosind Tauri observam datele afisate de serverul web si le afisam pe aplicatie sub forma de procent.
 
-### Functionalitate
+## Functionalitate
 
-# Procesare Imagini cu Fețe:
+### Procesare Imagini cu Fețe:
 
 Facy utilizează algoritmi de învățare automată pentru a analiza și extrage informații din imagini care conțin fețe de persoane.
 
-# Alocare de ID-uri Unice:
+### Alocare de ID-uri Unice:
 
 Pentru fiecare set de date prelucrat, se atribuie un ID. Acest ID este utilizat pentru a identifica și recupera datele în viitor.
 
-# Stocare în RedisDB:
+### Stocare în RedisDB:
 
 Datele prelucrate sunt salvate într-o bază de date Redis. Redis este o bază de date în memorie care este cunoscută pentru performanțele sale ridicate și capacitatea de a gestiona cantități mari de date în timp real.
 
-# Sistem de Mesagerie cu RabbitMQ:
+### Sistem de Mesagerie cu RabbitMQ:
 
 Pentru a echilibra încărcătura cererilor către aplicație, se folosește RabbitMQ ca un broker de mesaje. Acesta gestionează distribuția cererilor către workeri pentru a putea prelucra mai multe cereri simultan.
 
-# Server Web cu Flask:
+### Server Web cu Flask:
 
 Pentru a facilita comunicarea între aplicație și workerii RabbitMQ, proiectul utilizează Flask, un framework de dezvoltare web pentru Python. Comunicarea se face prin intermediul formatului JSON.
 
-# Interfață Utilizator cu Vue.js:
+### Interfață Utilizator cu Vue.js:
 
 Interfața utilizatorului (UI) a aplicației este dezvoltată folosind Vue.js, un framework JavaScript pentru construirea interfețelor de utilizator reactive.
 
-# Observarea Datelor cu Tauri:
+### Observarea Datelor cu Tauri:
 
 Se pare că proiectul folosește Tauri pentru a observa și afișa datele furnizate de serverul web. Acesta este un instrument care facilitează integrarea aplicației desktop cu tehnologiile web.
 
-# Utilizarea Node.js:
+### Utilizarea Node.js:
 
 Proiectul utilizează Node.js, un mediu de execuție JavaScript pe partea serverului, pentru a gestiona operațiuni de rețea și pentru a facilita dezvoltarea aplicației.
 
