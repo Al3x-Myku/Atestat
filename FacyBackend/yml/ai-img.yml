@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-img
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ai-img
+  template:
+    metadata:
+      labels:
+        app: ai-img
+    spec:
+      containers:
+      - name: ai-img
+        image: avramstefan/facysent:1.5
+        ports:
+        - containerPort: 5001
+        env:
+          - name: REDIS_SVC
+            valueFrom:
+              secretKeyRef:
+                name: redis-svc
+                key: REDIS_SVC
+          - name: RABBITMQ_HOST
+            valueFrom:
+              secretKeyRef:
+                name: rabbitmq-host
+                key: RABBITMQ_HOST      
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-img
+spec:
+  selector:
+    app: ai-img
+  ports:
+  - port: 5001
+    targetPort: 5001
