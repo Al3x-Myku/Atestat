@@ -1,0 +1,10 @@
+flask
+redis
+json
+uuid
+pika
+flask_cors
+numpy
+deepface
+opencv
+tenserflow
