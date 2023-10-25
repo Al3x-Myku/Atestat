@@ -84,5 +84,6 @@ Q: Pozele sunt salvate?
 
 A: Pozele nu sunt salvate, doar ID-ul asignat si datele extrase.
 
-
+### Contact
+Daca exista probleme cu acest tool va rog sa deschide-ti un issue sau sa creati un PR cu o solutie.
 
