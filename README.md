@@ -3,10 +3,13 @@
 # Documentatie Facy
 
 ### Cuprins
-1. Necesitati
-2. Instalare
-3. Instructiuni 
-4. Descriere proiect
+1. [Necesitati](#Necesitati)
+2. [Instalare](#Instalare)
+3. [Instructiuni](#Instructiuni) 
+4. [Descriere proiect](#Descriere-proiect)
+5. [Functionalitate](#Functionalitate)
+   
+---
 
 ### Necesitati
 - Node.js
