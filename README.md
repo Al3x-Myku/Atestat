@@ -74,7 +74,7 @@ Proiectul utilizează Node.js, un mediu de execuție JavaScript pe partea server
 
 
 ### FAQs
-1. 
+
 Q: Poate fi folosit real-time pentru a arata emotiile?
 
 A: La momentul actual aplicatia poate fi folosita doar cu imagini facute anterior.
