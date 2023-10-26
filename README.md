@@ -78,11 +78,11 @@ Proiectul utilizează Node.js, un mediu de execuție JavaScript pe partea server
 Q: Poate fi folosit real-time pentru a arata emotiile?
 
 A: La momentul actual aplicatia poate fi folosita doar cu imagini facute anterior.
-2. 
+
 Q: Pot acesa datele dupa ce am incarcat alta imagine?
 
 A: Da, datele pot fi accesate dupa incarcarea altei imagini.
-3. 
+ 
 Q: Pozele sunt salvate?
 
 A: Pozele nu sunt salvate, doar ID-ul asignat si datele extrase.
