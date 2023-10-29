@@ -8,6 +8,7 @@
 3. [Instructiuni](#Instructiuni) 
 4. [Descriere proiect](#Descriere-proiect)
 5. [Functionalitate](#Functionalitate)
+6. [Deployment](#Deployment)
    
 ---
 
