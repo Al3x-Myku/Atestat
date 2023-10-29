@@ -71,7 +71,11 @@ Se pare că proiectul folosește Tauri pentru a observa și afișa datele furniz
 
 Proiectul utilizează Node.js, un mediu de execuție JavaScript pe partea serverului, pentru a gestiona operațiuni de rețea și pentru a facilita dezvoltarea aplicației.
 
+## Deployment
 
+Toate fișierele de configurare necesare pentru deployment sunt incluse în proiect.
+
+Acest proiect este configurat astfel încât să poată fi rulat pe servere locale utilizând Minikube, în loc de a depinde de un furnizor de cloud.
 
 ### FAQs
 
