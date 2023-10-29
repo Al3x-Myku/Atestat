@@ -9,6 +9,8 @@
 4. [Descriere proiect](#Descriere-proiect)
 5. [Functionalitate](#Functionalitate)
 6. [Deployment](#Deployment)
+7. [FAQs](#FAQs)
+8. [Contact](#Contact)
    
 ---
 
