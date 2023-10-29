@@ -1,6 +1,6 @@
 
 
-# Documentatie Facy
+# Documentatie Facyapp
 
 ### Cuprins
 1. [Necesitati](#Necesitati)
