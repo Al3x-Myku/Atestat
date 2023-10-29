@@ -1,5 +1,3 @@
-
-
 # Documentatie Facyapp
 
 ### Cuprins
