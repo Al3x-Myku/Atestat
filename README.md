@@ -14,6 +14,7 @@
 
 ### Necesitati
 - Node.js
+- Vue
 - Python 3.10
 - Docker
 - Redis
